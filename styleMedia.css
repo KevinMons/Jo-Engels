@@ -1,0 +1,202 @@
+/* Barre de Navigation -----------------------------------------------------------*/
+
+@media (max-width: 768px) {
+    .nav-bg {
+        -webkit-clip-path: none;
+        clip-path: none;
+    }
+
+    .nav {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav-text {
+        font-size: 2rem;
+    }
+
+    .nav {
+        display: block;
+    }
+
+    .nav-container-text {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 0;
+    }
+}
+
+
+/* Section moi -----------------------------------------------------------------------*/
+
+@media (max-width: 1200px) {
+    .moi-title {
+        border-bottom: 2px solid black;
+    }
+
+    .moi-contenu {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 500px) {
+    .moi-img > img {
+        display: none;
+    }
+
+    .moi-contenu {
+        width: 70%;
+    }
+
+    .moi-text {
+       font-size: 1rem;
+    }
+}
+
+/* Section Portfolio ----------------------------------------------------------------*/
+
+@media (max-width: 1040px) {
+    .galerie {
+        margin-top: 50%;
+    }
+
+    .galerie-img {
+        width: 18%;
+    }
+
+    .portfolio-bg {
+        clip-path: none;
+        -webkit-clip-path: none;
+    }
+
+    .portfolio {
+        height: 100vh;;
+    }
+
+    .portfolio-text > h3 {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .galerie {
+        margin-top: 50%;
+        flex-direction: column;
+        position: relative;
+        margin-top: 5rem;
+        align-items: center;
+        z-index: 1;
+        top: 20%;
+    }
+
+    .galerie-text {
+        position: relative;
+        z-index: 1;
+    }
+
+    .galerie-img {
+        width: 25%;
+        margin: 1rem;
+    }
+
+    .portfolio {
+        height: 300vh;
+        background: #FFA861;
+    }
+
+    .portfolio-bg {
+        position: relative;
+        height: 0%;
+    }
+
+    .portfolio-text > h3 {
+        font-size: 4rem;
+        
+    }
+}
+
+@media (max-width: 500px) {
+    .portfolio {
+        height: 200vh;
+    }
+}
+
+@media (max-width: 414px) {
+    .portfolio {
+        height: 150vh;
+    }
+
+    .portfolio-text > h3 {
+        font-size: 3rem;
+    }
+}
+
+
+/* Section Tarif  -------------------------------------------------------------------*/
+
+@media (max-width: 1200px) {
+    .services-li {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 1040px) {
+    .services {
+        top: 0;
+        position: relative;
+        height: 100vh;
+    }
+
+    .services-title {
+        font-size: 2rem;
+        top: 25%;
+    }
+
+    .services-tarif {
+        top: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .services {
+        height: 150vh;
+    }
+
+    .services-title {
+        top: 20%;
+        font-size: 1.5rem;
+    }
+
+    .services-tarif {
+        top: 40%;
+
+    }
+
+    .services-li {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .services-li {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 414px) {
+    .services {
+        height: 100vh;
+    }
+
+    .services-title {
+        top: 5%;
+    }
+
+    .services-li {
+        letter-spacing: 0.1rem;
+    }
+}
